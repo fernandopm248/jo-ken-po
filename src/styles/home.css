@@ -1,0 +1,114 @@
+.principal{
+    display: flex;
+    min-height: 100vh;
+
+
+
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.center-block{
+    
+    border: hsl(217, 16%, 45%) 3px solid;
+    width : 45%;
+    display: flex;
+   justify-content: space-between;
+    height: 9rem;
+    border-radius: 10px 10px 10px 10px;
+
+  
+}
+.palavra{
+    display: flex;
+    font-size: 36px;
+    color: white;
+    margin-left: 40px;
+    padding: 0px;
+    font-weight: 700;
+}
+  .botao{
+      display: flex;
+      flex-direction: column;
+      height: 70%;
+      width: 20%;
+      margin-right: 40px;
+      margin-top: 20px;
+      background-color: white;
+      justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+  }  
+.score{
+    color: rgb(10, 10, 155);
+    font-size: 19px;
+    font-weight: 500;
+}  
+.value{
+    font-size: 50px;
+    color: rgb(87, 83, 83);
+    font-weight: 700;
+}
+.logo{
+    margin-top: 9px;
+}
+.block-tri{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 43%;
+    margin-top: 25px;
+    
+}
+.triangle{
+    margin-top: 50px;
+    position: absolute;
+    z-index: -1;
+   
+}
+.paper{
+    border-radius: 50%;
+    border:21px hsl(230, 89%, 62%) solid;
+    background-color: white;
+    padding: 40px;
+    
+    
+    
+}
+.scissor{
+    border-radius: 50%;
+    border:21px   hsl(39, 89%, 49%) solid;
+  
+    background-color: white;
+    padding: 40px;
+    background:cover;
+
+}
+.rock{
+    border-radius: 50%;
+    border:21px hsl(349, 71%, 52%) solid;
+    background-color: white;
+    padding: 40px;
+}
+.up{
+    
+    width: 20%;
+    
+}
+.up2{
+   
+    margin-top: 4px;
+   
+
+}
+
+
+
+
